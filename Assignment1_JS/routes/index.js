@@ -1,7 +1,7 @@
 /*
  File Name: index.js
  Author's name:  Ramandeep Kaur
- Website name: Personal Portfolio
+ Website name: Jewellery System
  File description: In this file, i have rander all the views in the pug template pages.
 */
 'use strict';
@@ -10,22 +10,22 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Personal Protofolio' });
+    res.render('index', { title: 'Jewellery System' });
 });
 
 /* GET home page. */
-router.get('/contact', function (req, res) {
-    res.render('contact', { title: 'Contact' });
+router.get('/jewellery_types', function (req, res) {
+    res.render('jewellery_types', { title: 'Jewellery Types' });
 });
 
 /* GET home page. */
-router.get('/services', function (req, res) {
-    res.render('services', { title: 'Services' });
+router.get('/login', function (req, res) {
+    res.render('login', { title: 'Login' });
 });
 
 /* GET home page. */
-router.get('/projects', function (req, res) {
-    res.render('projects', { title: 'Projects' });
+router.get('/register', function (req, res) {
+    res.render('register', { title: 'Register' });
 });
 
 /* GET home page. */
