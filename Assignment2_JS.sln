@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Assignment1_JS", "Assignment1_JS\Assignment1_JS.njsproj", "{AE2B85A3-5A31-4572-AB1B-85ED78E6B992}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Assignment2_JS", "Assignment1_JS\Assignment2_JS.njsproj", "{AE2B85A3-5A31-4572-AB1B-85ED78E6B992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
